@@ -1,5 +1,5 @@
 # qb-notify
-Edited notify for QBCore
+Edited notify design for QBCore
 
 # Preview:
 
