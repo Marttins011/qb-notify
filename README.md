@@ -7,3 +7,10 @@ Edited notify design for QBCore
 
 # Original Script:
 - https://github.com/tnj-development/tnj-notify
+
+# Place it at qb-core/client/functions.lua:
+```
+function QBCore.Functions.Notify(text, texttype, length)
+    exports['tnj-notify']:Notify(text, texttype, length)
+end
+```
