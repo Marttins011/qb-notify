@@ -1,0 +1,58 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+    right: 1%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    margin:6px;
+    font: caption;
+    padding:9px;
+    border-radius: 1em;;
+    font-weight:bold;
+    font-size:15px;
+    display:inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.541);
+}
+  
+
+.success {
+    background: rgba(8, 102, 0, 0.50);
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+.primary {
+    background-color: rgba(0, 0, 0, 0.50);
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+.error {
+    background: rgba(104, 0, 3, 0.50);
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+.police {
+    background: rgba(0, 47, 255, 0.50);
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+.ambulance {
+    background: rgba(255, 153, 0, 0.50);
+    color: #ffffff;
+    font-family: Calibri;
+}
