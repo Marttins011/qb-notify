@@ -8,7 +8,7 @@ Edited notify design for QBCore
 # Place it at qb-core/client/functions.lua:
 ```
 function QBCore.Functions.Notify(text, texttype, length)
-    exports['tnj-notify']:Notify(text, texttype, length)
+    exports['qb-notify']:Notify(text, texttype, length)
 end
 ```
 
